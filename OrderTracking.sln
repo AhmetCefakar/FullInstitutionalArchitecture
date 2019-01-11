@@ -49,6 +49,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.AspNetMvcWebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.UI.Console", "OrderTracking.UI.Console\OrderTracking.UI.Console.csproj", "{1F540B76-A74E-4BF8-96E4-EF815BE1E969}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DAC585E-DCED-4566-BBA5-BD119B79F57F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\DBScript.sql = ..\..\DBScript.sql
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

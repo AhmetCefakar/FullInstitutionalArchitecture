@@ -1,0 +1,1 @@
+Uygulamada kullanýlan Veritabaný(DbScript.sql) ilgili klasör içerisindedir.
