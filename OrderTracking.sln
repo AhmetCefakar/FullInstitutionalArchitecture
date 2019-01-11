@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.DataAccessLayer", "OrderTracking.DataAccessLayer\OrderTracking.DataAccessLayer.csproj", "{3CCD905C-FD51-4271-941F-CF8B634BF99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.BusinessLogicLayer", "OrderTracking.BusinessLogicLayer\OrderTracking.BusinessLogicLayer.csproj", "{C74C7D65-9EC3-4A21-9A37-F15567061590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.UI.AspNetMvc", "OrderTracking.UI.AspNetMVC\OrderTracking.UI.AspNetMvc.csproj", "{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.UI.AspNetMvc.Tests", "OrderTracking.UI.AspNetMVC.Tests\OrderTracking.UI.AspNetMvc.Tests.csproj", "{7C342F58-7F97-40DC-81F1-05E9734351E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.Entity", "OrderTracking.Entity\OrderTracking.Entity.csproj", "{F193C4F8-8DDA-4AA7-A334-E5D30B21FBB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{F8B3DBC0-4C45-4695-82A3-E6D16EC358E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.Cache", "OrderTracking.Cache\OrderTracking.Cache.csproj", "{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.WcfServiceLibrary", "OrderTracking.WcfServiceLibrary\OrderTracking.WcfServiceLibrary.csproj", "{B95B8160-6646-48E3-8BCA-0142C297C566}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OrderTracking.WcfIISHost", "OrderTracking.WcfIISHost\", "{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2433"
+		Debug.AspNetCompiler.PhysicalPath = "OrderTracking.WcfIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2433\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2433"
+		Release.AspNetCompiler.PhysicalPath = "OrderTracking.WcfIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2433\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2433"
+		SlnRelativePath = "OrderTracking.WcfIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{455033F7-4CE5-4926-B8AF-F37CA02C2FA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{3FD2BEB6-B846-41A2-9998-E505ACE010B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.AspNetMvcWebApi", "OrderTracking.AspNetMvcWebApi\OrderTracking.AspNetMvcWebApi.csproj", "{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderTracking.UI.Console", "OrderTracking.UI.Console\OrderTracking.UI.Console.csproj", "{1F540B76-A74E-4BF8-96E4-EF815BE1E969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CCD905C-FD51-4271-941F-CF8B634BF99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCD905C-FD51-4271-941F-CF8B634BF99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCD905C-FD51-4271-941F-CF8B634BF99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCD905C-FD51-4271-941F-CF8B634BF99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74C7D65-9EC3-4A21-9A37-F15567061590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74C7D65-9EC3-4A21-9A37-F15567061590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74C7D65-9EC3-4A21-9A37-F15567061590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74C7D65-9EC3-4A21-9A37-F15567061590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C342F58-7F97-40DC-81F1-05E9734351E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C342F58-7F97-40DC-81F1-05E9734351E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C342F58-7F97-40DC-81F1-05E9734351E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C342F58-7F97-40DC-81F1-05E9734351E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F193C4F8-8DDA-4AA7-A334-E5D30B21FBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F193C4F8-8DDA-4AA7-A334-E5D30B21FBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F193C4F8-8DDA-4AA7-A334-E5D30B21FBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F193C4F8-8DDA-4AA7-A334-E5D30B21FBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95B8160-6646-48E3-8BCA-0142C297C566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95B8160-6646-48E3-8BCA-0142C297C566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95B8160-6646-48E3-8BCA-0142C297C566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95B8160-6646-48E3-8BCA-0142C297C566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F540B76-A74E-4BF8-96E4-EF815BE1E969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F540B76-A74E-4BF8-96E4-EF815BE1E969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F540B76-A74E-4BF8-96E4-EF815BE1E969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F540B76-A74E-4BF8-96E4-EF815BE1E969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A54B3A09-1EBD-42A8-BBC5-CD70A365B6E5} = {455033F7-4CE5-4926-B8AF-F37CA02C2FA8}
+		{7C342F58-7F97-40DC-81F1-05E9734351E4} = {455033F7-4CE5-4926-B8AF-F37CA02C2FA8}
+		{80E82DFF-9FC2-4E66-87E5-1E50ACD5BEB7} = {F8B3DBC0-4C45-4695-82A3-E6D16EC358E0}
+		{B95B8160-6646-48E3-8BCA-0142C297C566} = {3FD2BEB6-B846-41A2-9998-E505ACE010B3}
+		{AC5409F8-B3BE-42A6-A8F5-2D1E1AF818D5} = {3FD2BEB6-B846-41A2-9998-E505ACE010B3}
+		{8B2FC8A8-05F6-415C-987F-3AE1F9F122A0} = {3FD2BEB6-B846-41A2-9998-E505ACE010B3}
+		{1F540B76-A74E-4BF8-96E4-EF815BE1E969} = {455033F7-4CE5-4926-B8AF-F37CA02C2FA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9474AE7-9EE3-4FCF-B8EC-38D94643D8A6}
+	EndGlobalSection
+EndGlobal
