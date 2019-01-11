@@ -21,7 +21,7 @@ namespace OrderTracking.DataAccessLayer.Concrete.ORM.EntityFramework.UnitOfWork
 		private static readonly object padlock = new object(); // Çoklu thered ortamlarında tek context üretmek için eklendi.
 		private readonly OrderTrackingContext _dbContext;
 
-		#region Her bir tabloya özel olan Repositorylerin tanımlanması(UOW'ün bu Generic olmayan yaklaşımında her bir Repository sınıfı buraya tek tek tanımlanmalıdır)
+		#region Her bir tabloya özel olan Repository'lerin tanımlanması(UOW'ün bu Generic olmayan yaklaşımında her bir Repository sınıfı buraya tek tek tanımlanmalıdır)
 		private EfStokRepository _efStokDal;
 		public EfStokRepository EfStokDal
 		{
@@ -35,9 +35,7 @@ namespace OrderTracking.DataAccessLayer.Concrete.ORM.EntityFramework.UnitOfWork
 			}
 		}
 		#endregion
-
-
-
+		
 		public EfOrderTrackingUnitOfWork()
 		{
 			#region Thread Safety Singleton using Double Check Locking
